@@ -1,6 +1,6 @@
 #include <Wire.h>                                                          //Wire library generally used for I2C communication in Arduino code                                                                       
 int ADXL345 = 0x53;                                                       // Every sensor have I2C address and for ADXL345 sensor I2C address is given in datasheet
-float X_axis_out, Y_axis_out, Z_axis_out;                   //Generated Outputs of Arduino
+float X_axis_out, Y_axis_out, Z_axis_out;                                 //Generated Outputs of Arduino
 void setup() 
 {
     Serial.begin(9600);                                                   // Initiating serial communication for printing the results on the Serial monitor in Arduino IDE
